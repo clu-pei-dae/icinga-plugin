@@ -1,4 +1,4 @@
-package icinga
+package icinga_plugin
 
 import "fmt"
 

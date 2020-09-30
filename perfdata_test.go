@@ -1,9 +1,9 @@
-package icinga
+package icinga_plugin
 
 import (
 	"testing"
 
-	"clu-pei-dae/icinga-plugin/icinga/units"
+	"clu-pei-dae/icinga-plugin/units"
 )
 
 func TestPerformanceDataElement_ToString(t *testing.T) {

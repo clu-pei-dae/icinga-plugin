@@ -1,10 +1,10 @@
-package icinga
+package icinga_plugin
 
 import (
 	"fmt"
 	"strings"
 
-	"clu-pei-dae/icinga-plugin/icinga/units"
+	"clu-pei-dae/icinga-plugin/units"
 )
 
 // PerformanceDataElement is one element of performance data that can be returned by a icinga plugin
