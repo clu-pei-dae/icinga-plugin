@@ -1,0 +1,1 @@
+module "clu-pei-dae/icinga-plugin"
