@@ -33,7 +33,7 @@ func TestPerformanceDataElement_ToString(t *testing.T) {
 		{name: "miliseconds", fields: fields{
 			Label:         "time",
 			Value:         "5",
-			Unit:          units.MiliSeconds,
+			Unit:          units.MilliSeconds,
 			WarningValue:  "2.5",
 			CriticalValue: "3",
 			MinimumValue:  "1",
@@ -42,7 +42,7 @@ func TestPerformanceDataElement_ToString(t *testing.T) {
 		{name: "miliseconds without min/max", fields: fields{
 			Label:         "time",
 			Value:         "5",
-			Unit:          units.MiliSeconds,
+			Unit:          units.MilliSeconds,
 			WarningValue:  "2.5",
 			CriticalValue: "3",
 		}, want: "'time'=5ms;2.5;3;;"},
@@ -104,7 +104,7 @@ func TestPerformanceData_ToString(t *testing.T) {
 			PerformanceDataElement{
 				Label:         "startup",
 				Value:         "5",
-				Unit:          units.MiliSeconds,
+				Unit:          units.MilliSeconds,
 				WarningValue:  "2.5",
 				CriticalValue: "3"},
 		}, want: "'time'=5;;;; 'startup'=5ms;2.5;3;;"},

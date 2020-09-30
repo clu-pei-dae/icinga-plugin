@@ -7,7 +7,7 @@ const (
 	NotSpecified = UnitOfMeasurement("")
 
 	Seconds      = UnitOfMeasurement("s")
-	MiliSeconds  = UnitOfMeasurement("ms")
+	MilliSeconds = UnitOfMeasurement("ms")
 	MicroSeconds = UnitOfMeasurement("us")
 
 	Percentage = UnitOfMeasurement("%")
