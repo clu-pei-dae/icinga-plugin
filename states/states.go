@@ -32,3 +32,8 @@ func (s State) ServiceState() string {
 		return "UNKNOWN"
 	}
 }
+
+// ExitCode returns the integer value of the state.
+func (s State) ExitCode() int {
+	return int(s)
+}
