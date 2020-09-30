@@ -3,7 +3,7 @@ package icinga_plugin
 import (
 	"testing"
 
-	"clu-pei-dae/icinga-plugin/units"
+	"github.com/clu-pei-dae/icinga-plugin/units"
 )
 
 func TestPerformanceDataElement_ToString(t *testing.T) {

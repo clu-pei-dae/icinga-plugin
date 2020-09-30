@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"clu-pei-dae/icinga-plugin/units"
+	"github.com/clu-pei-dae/icinga-plugin/units"
 )
 
 // PerformanceDataElement is one element of performance data that can be returned by a icinga plugin
