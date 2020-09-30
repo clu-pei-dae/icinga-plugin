@@ -1,23 +1,23 @@
-package state
+package states
 
 // State represents the icinga plugin states as documented in <http://demo1.dtnet.de/icinga/docs/en/pluginapi.html>
 type State int
 
 const (
-	// Ok represents the state 0: "OK" / "UP"
+	// Ok represents the states 0: "OK" / "UP"
 	Ok = State(0)
 
-	// Warning represents the state 1: "WARNING" / "UP or DOWN/UNREACHABLE"
+	// Warning represents the states 1: "WARNING" / "UP or DOWN/UNREACHABLE"
 	Warning = State(1)
 
-	// Critical represents the state 2: "CRITICAL" / "DOWN/UNREACHABLE"
+	// Critical represents the states 2: "CRITICAL" / "DOWN/UNREACHABLE"
 	Critical = State(2)
 
-	// Unknown represents the state 3: "UNKNOWN" / "DOWN/UNREACHABLE"
+	// Unknown represents the states 3: "UNKNOWN" / "DOWN/UNREACHABLE"
 	Unknown = State(3)
 )
 
-// ServiceState returns the description of the state.
+// ServiceState returns the description of the states.
 func (s State) ServiceState() string {
 	switch s {
 	case Ok:
